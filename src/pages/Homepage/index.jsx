@@ -1,3 +1,6 @@
+import React from 'react'
+
+
 const Homepage = () => {
     return (
         <main
@@ -26,6 +29,7 @@ const Homepage = () => {
                     className='text-[15px] md:text-[16px] leading-[25px]
                 lg:text-[18px] font-barlow lg:first-line md:leading-[24px] lg:leading-[32px] '
                 >
+
                     Let’s face it; if you want to go to space, you might as well
                     genuinely go to outer space and not hover kind of on the
                     edge of it. Well sit back, and relax because we’ll give you
