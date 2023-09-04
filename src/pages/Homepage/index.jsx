@@ -3,12 +3,14 @@ import React from 'react'
 
 const Homepage = () => {
     return (
-        <main
+ 
+        
+        <main 
             className='container mx-auto md:mb-[90px] gap-[81px]
          md:gap-[156px] flex mt-[48px] md:mt-[106px] lg:mt-[251px]
          justify-around lg:flex-row flex-col items-center px-[24px] lg:items-end'
         >
-            <div
+            <div data-aos = "fade-right" data-aos-delay = "500"
                 className='flex lg:text-left text-center
              flex-col w-full max-w-[450px] text-white '
             >
@@ -36,7 +38,7 @@ const Homepage = () => {
                     a truly out of this world experience!
                 </p>
             </div>
-            <div
+            <div data-aos = "fade-left" data-aos-delay = "500"
                 style={{ aspectRatio: "1/1" }}
                 className=' w-[140px] md:w-[242px] lg:w-[274px]
                 rounded-full grid place-items-center bg-white group relative'
@@ -51,6 +53,7 @@ const Homepage = () => {
                 />
             </div>
         </main>
+       
     );
 };
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import Desti from '../../components/DestiComp/Desti'
+// import "../../styles/destination.css"
+
 
 const DestinationTitan = () => {
     return (

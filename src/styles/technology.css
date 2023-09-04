@@ -1,0 +1,21 @@
+body {
+    background: url("/assets/technology/background-technology-mobile.jpg") no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    body {
+        background: url("/assets/technology/background-technology-tablet.jpg") no-repeat;
+    background-size: cover;
+
+    
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        background: url("/assets/technology/background-technology-desktop.jpg") no-repeat;
+    background-size: cover;
+
+   
+    }
+}

@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
     background: url("/assets/home/background-home-mobile.jpg") no-repeat;
     background-size: cover;
 }
@@ -19,4 +19,4 @@ body {
         background: url("/assets/home/background-home-desktop.jpg") no-repeat;
         background-size: cover;
     }
-}
+} */

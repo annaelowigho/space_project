@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import "../../styles/destination.css"
 
 const Desti = ({
   title,
@@ -14,7 +15,7 @@ const Desti = ({
 
   return (
     <>
-      <div
+      <div data-aos = "fade-right"
         className="flex flex-wrap text-white font-barlow pt-[34px] pb-[32px] pl-[90.5px] pr-[76.5px]
            md:pt-[40px] md:pl-[38.5px] md:pb-[60px] md:text-[20px]
            lg:pl-[166.5px] lg:pt-[76px] lg:text[28px]"
@@ -23,14 +24,14 @@ const Desti = ({
         <h3>PICK YOUR DESTINATION</h3>
       </div>
       <div className="flex flex-wrap items-center justify-center md:flex-col lg:flex-row lg:pb-[118px]">
-        <img
+        <img data-aos = "zoom-in" data-aos-delay = "500"
           src={image}
           alt=""
           className="h-[170px] w-[170px] md:h-[300px] 
             md:w-[300px] lg:w-[445px] lg:h-[445px]"
         />
         <div>
-          <div className="flex flex-wrap items-center justify-center md:flex-col lg:pl-[157px] lg:place-items-start">
+          <div data-aos = "fade-left" data-aos-delay = "500" className="flex flex-wrap items-center justify-center md:flex-col lg:pl-[157px] lg:place-items-start">
             <ul
               className="flex gap-[26px] font-barlow text-white tracking-[2.36px] text-[14px] pt-[26px] pb-[8px] 
           md:pt[53px] md:pb-[32px] md:text-[16px] md:tracking-[2.7px] md:gap-[36px]

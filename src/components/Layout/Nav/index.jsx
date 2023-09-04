@@ -20,7 +20,7 @@ const navlinks = [
     {
         title: "Technology",
         number: "03",
-        link: "/",
+        link: "/technology",
     },
 ];
 
